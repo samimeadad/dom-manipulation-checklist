@@ -1,149 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penguin Fashion</title>
 
-    <!-- tailwind css -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Penguin Fashion</title>
 
-    <!-- import google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!-- tailwind css -->
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-    <!-- local stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+        <!-- import google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-</head>
-<body>
-    <header class="bg-yellow-100">
-        <section class="md:flex items-center justify-around lg:py-24 md:py-16 p-8">
-            <div class="space-y-4">
-                <h1 class="text-7xl font-bold uppercase"> <span class="text-yellow-400">Be The Penguin</span><br><span class="text-gray-700">of Winter</span></h1>
-                <p class="w-2/3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dolor!</p>
-                <button class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500"> <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg></span> Buy Now</button>
-            </div>
-            <div>
-                <img src="images/model.png" alt="">
-            </div>
-        </section>
-    </header>
+        <!-- local stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
 
-    <main>
-        <!-- woman jacket section -->
-        <section class="mt-12">
-            <h2 class="text-4xl uppercase text-gray-700 font-bold px-8 mx-auto my-4">Woman Jackets</h2>
-            <!-- woman jacket container -->
-            <div class="grid lg:grid-cols-3 gap-8 px-8 mx-auto my-4">
-                <!-- single coat item -->
-                <div class="shadow-lg rounded-2xl p-4 space-y-4">
-                    <div class="bg-gray-200 rounded-2xl p-8">
-                        <img class="h-64 mx-auto" src="images/jacket-1.png" alt="">
+    </head>
+
+    <body>
+        <header class="bg-yellow-100">
+            <section class="md:flex items-center justify-around lg:py-24 md:py-16 p-8">
+                <div class="space-y-4">
+                    <h1 class="text-7xl font-bold uppercase"> <span id="header-title" class="text-yellow-400">Be The
+                            Penguin</span><br><span class="text-gray-700">of Winter</span></h1>
+                    <p class="w-2/3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, dolor!</p>
+                    <button id="header-button"
+                        class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg></span> Buy Now</button>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <!-- woman jacket section -->
+            <section class="mt-12">
+                <h2 class="text-4xl uppercase text-gray-700 font-bold px-8 mx-auto my-4">Woman Jackets</h2>
+                <!-- woman jacket container -->
+                <div class="grid lg:grid-cols-3 gap-8 px-8 mx-auto my-4">
+                    <!-- single coat item -->
+                    <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                        <div class="bg-gray-200 rounded-2xl p-8">
+                            <img class="h-64 mx-auto" src="images/jacket-1.png" alt="">
+                        </div>
+                        <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
+                        <div class="lg:flex justify-between">
+                            <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
+                            <button
+                                class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span> Buy Now</button>
+                        </div>
                     </div>
-                    <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
-                    <div class="lg:flex justify-between">
-                        <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
-                        <button class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500"> <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                          </svg></span> Buy Now</button>
+                    <!-- single coat item -->
+                    <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                        <div class="bg-gray-200 rounded-2xl p-8">
+                            <img class="h-64 mx-auto" src="images/jacket-2.png" alt="">
+                        </div>
+                        <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
+                        <div class="lg:flex justify-between">
+                            <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
+                            <button
+                                class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span> Buy Now</button>
+                        </div>
+                    </div>
+                    <!-- single coat item -->
+                    <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                        <div class="bg-gray-200 rounded-2xl p-8">
+                            <img class="h-64 mx-auto" src="images/jacket-3.png" alt="">
+                        </div>
+                        <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
+                        <div class="lg:flex justify-between">
+                            <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
+                            <button
+                                class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span> Buy Now</button>
+                        </div>
                     </div>
                 </div>
-                <!-- single coat item -->
-                <div class="shadow-lg rounded-2xl p-4 space-y-4">
-                    <div class="bg-gray-200 rounded-2xl p-8">
-                        <img class="h-64 mx-auto" src="images/jacket-2.png" alt="">
+            </section>
+            <!-- man jacket section-->
+            <section class="mt-12">
+                <h2 class="text-4xl uppercase text-gray-700 font-bold px-8 mx-auto my-4">Man Jackets</h2>
+                <!-- man jacket container -->
+                <div class="grid lg:grid-cols-3 gap-8 px-8 mx-auto my-4">
+                    <!-- single coat item -->
+                    <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                        <div class="bg-gray-200 rounded-2xl p-8">
+                            <img class="h-64 mx-auto" src="images/jacket-4.png" alt="">
+                        </div>
+                        <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
+                        <div class="lg:flex justify-between">
+                            <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
+                            <button
+                                class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span> Buy Now</button>
+                        </div>
                     </div>
-                    <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
-                    <div class="lg:flex justify-between">
-                        <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
-                        <button class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500"> <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                          </svg></span> Buy Now</button>
+                    <!-- single coat item -->
+                    <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                        <div class="bg-gray-200 rounded-2xl p-8">
+                            <img class="h-64 mx-auto" src="images/jacket-5.png" alt="">
+                        </div>
+                        <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
+                        <div class="lg:flex justify-between">
+                            <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
+                            <button
+                                class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span> Buy Now</button>
+                        </div>
                     </div>
-                </div>
-                <!-- single coat item -->
-                <div class="shadow-lg rounded-2xl p-4 space-y-4">
-                    <div class="bg-gray-200 rounded-2xl p-8">
-                        <img class="h-64 mx-auto" src="images/jacket-3.png" alt="">
-                    </div>
-                    <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
-                    <div class="lg:flex justify-between">
-                        <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
-                        <button class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500"> <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                          </svg></span> Buy Now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- man jacket section-->
-        <section class="mt-12">
-            <h2 class="text-4xl uppercase text-gray-700 font-bold px-8 mx-auto my-4">Man Jackets</h2>
-            <!-- man jacket container -->
-            <div class="grid lg:grid-cols-3 gap-8 px-8 mx-auto my-4">
-                <!-- single coat item -->
-                <div class="shadow-lg rounded-2xl p-4 space-y-4">
-                    <div class="bg-gray-200 rounded-2xl p-8">
-                        <img class="h-64 mx-auto" src="images/jacket-4.png" alt="">
-                    </div>
-                    <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
-                    <div class="lg:flex justify-between">
-                        <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
-                        <button class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500"> <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                          </svg></span> Buy Now</button>
-                    </div>
-                </div>
-                <!-- single coat item -->
-                <div class="shadow-lg rounded-2xl p-4 space-y-4">
-                    <div class="bg-gray-200 rounded-2xl p-8">
-                        <img class="h-64 mx-auto" src="images/jacket-5.png" alt="">
-                    </div>
-                    <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
-                    <div class="lg:flex justify-between">
-                        <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
-                        <button class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500"> <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                          </svg></span> Buy Now</button>
+                    <!-- single coat item -->
+                    <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                        <div class="bg-gray-200 rounded-2xl p-8">
+                            <img class="h-64 mx-auto" src="images/jacket-6.png" alt="">
+                        </div>
+                        <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
+                        <div class="lg:flex justify-between">
+                            <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
+                            <button
+                                class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span> Buy Now</button>
+                        </div>
                     </div>
                 </div>
-                <!-- single coat item -->
-                <div class="shadow-lg rounded-2xl p-4 space-y-4">
-                    <div class="bg-gray-200 rounded-2xl p-8">
-                        <img class="h-64 mx-auto" src="images/jacket-6.png" alt="">
-                    </div>
-                    <h4 class="text-3xl font-bold">Yellow Coat Jacket</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestias!</p>
-                    <div class="lg:flex justify-between">
-                        <h2 class="font-black text-yellow-400 text-5xl">$234</h2>
-                        <button class="text-white uppercase font-medium bg-green-500 px-8 py-3 rounded-xl bg-gradient-to-r from-green-600 to-green-500"> <span><svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                          </svg></span> Buy Now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- features section -->
-        <section class="grid grid-cols-2 gap-4 mt-8">
-            <div class="bg-yellow-200">1</div>
-            <div class="bg-yellow-200 row-span-3">2</div>
-            <div class="bg-yellow-200">3</div>
-            <div class="bg-yellow-200">4</div>
-        </section>
-    </main>
-    <footer class="mt-8">
-        <p>Copyright@Sami Meadad Choudhury</p>
-    </footer>
-</body>
+            <!-- features section -->
+            <section class="grid grid-cols-2 gap-4 mt-8">
+                <div class="bg-yellow-200">1</div>
+                <div class="bg-yellow-200 row-span-3">2</div>
+                <div class="bg-yellow-200">3</div>
+                <div class="bg-yellow-200">4</div>
+            </section>
+        </main>
+        <footer class="mt-8">
+            <p>Copyright@Sami Meadad Choudhury</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+
 </html>
